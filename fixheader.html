@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="a"><p>Item1</p></div>
+        <div class="b"><p>Item2</p></div>
+        <div class="c"><p>Item3</p></div>
+        <div class="d"><p>Item4</p></div>
+        <div class="e"><p>Item5</p></div>
+    </div>
+</body>
+
+<style>
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        border: black solid 2px;
+        justify-content: center;
+        background: lightskyblue;
+        margin-top: 250px;
+        
+    }
+
+    .container div {
+        background: rosybrown;
+        border: hotpink solid 2px;
+    }
+
+    .container p {
+        background: rgba(233, 13, 13, 0.76);
+        border: rgb(34, 238, 45) solid 2px;
+        font-weight: 800;
+        font-size: 20px;
+    }
+</style>
+
+</html>
